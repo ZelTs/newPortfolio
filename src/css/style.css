@@ -1,0 +1,210 @@
+:root {
+    --cyan: #52D6C6;
+    --dark-cyan: #34b3a4;
+    --red: #F25E3D;
+
+    --blue: #b5f1fc;
+    --dark-blue: #85b9c2;
+    --green: #baffcf;
+    --dark-green: #69c985;
+    --orange: #ffe0cc;
+    --dark-orange: #e2ba8d;
+    --purple: #d5c5f3;
+    --dark-purple: #bc9ed1;
+    --yellow: #fff3be;
+    --dark-yellow: #cec393;
+    --light-red: #ffb8b8;
+    --dark-red: #cc8a8a;
+    --pink: #ffe7fd;
+    --dark-pink: #ccb1ca;
+
+    --gray: #e6e6e6;
+    --dark-gray: #b8b8b8;
+    --neutral-white: #FDFBF9;
+    --neutral-black: #181421;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "IBM Plex Sans", sans-serif;
+    color: var(--neutral-black);
+    background-image: url(../images/bg-main-mobile.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.25rem;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+    padding: 3rem 0;
+    letter-spacing: 0.05rem;
+    color: var(--neutral-black);
+}
+
+h1{
+    padding: 3rem 0 4rem 0;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+    letter-spacing: 0.0125rem;
+    font-weight: 400;
+    color: var(--neutral-black);
+}
+
+.icon {
+    text-align: left;
+    font-size: 1.28rem;
+    font-weight: 400;
+    margin: 0.125rem 0 0 0;
+    color: var(--dark-cyan);
+}
+
+header svg {
+    width: 50px;
+    margin: 0 0.375rem 0 0;
+    fill: var(--dark-cyan);
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.hero img {
+    width: 85%;
+    height: auto;
+    padding: 4rem 0;
+}
+
+.about {
+    padding: 1.5rem 1.35rem 3rem 1.35rem;
+    text-align: center;
+    color: var(--neutral-black);
+}
+
+.about p {
+    padding: 0 0 2rem 0;
+}
+
+.about img {
+    width: 70%;
+}
+
+.skills {
+    padding: 1rem 1.2rem 3rem 1.25rem;
+    margin: -6rem 1.5rem 1rem 1.5rem;
+    background-color: var(--neutral-white);
+    border: 1px solid var(--orange);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.img__skills {
+    width: 200px;
+    padding: 4rem 0 0 0;
+    margin: auto;
+}
+
+.skills h2{
+    font-size: 1.75rem;
+    padding: 1.5rem 0;
+    color: var(--red);
+}
+
+.skills__subtitle {
+    font-weight: bold;
+    padding: 1.5rem 0;
+}
+
+.label__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 0.25rem 2rem 0.25rem;
+}
+
+.tag {
+    background-color: var(--bg);
+    border: 2px solid var(--border);
+    margin: 0.20rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 5px;
+    font-size: 0.85rem;
+}
+
+.tag.blue {
+    --bg: var(--blue);
+    --border: var(--dark-blue);
+}
+
+.tag.green {
+    --bg: var(--green);
+    --border: var(--dark-green);
+}
+
+.tag.orange {
+    --bg: var(--orange);
+    --border: var(--dark-orange);
+}
+
+.tag.purple {
+    --bg: var(--purple);
+    --border: var(--dark-purple);
+}
+
+.tag.yellow {
+    --bg: var(--yellow);
+    --border: var(--dark-yellow);
+}
+
+.tag.red {
+    --bg: var(--light-red);
+    --border: var(--dark-red);
+}
+
+.tag.pink {
+    --bg: var(--pink);
+    --border: var(--dark-pink);
+}
+
+.experience{
+    padding: 0 2rem;
+}
+
+.img__container{
+    padding: 3rem 0;
+}
+
+.img__projects{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
