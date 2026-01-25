@@ -175,7 +175,7 @@ svg {
     background-color: var(--bg);
     border: 2px solid var(--border);
     margin: 0.20rem;
-    padding: 0.25rem 0.65rem;
+    padding: 0.125rem 0.75rem;
     border-radius: 6px;
 }
 
@@ -217,8 +217,7 @@ svg {
 .experience__labels {
     display: flex;
     justify-content: left;
-    padding: 0.5rem 0;
-    margin: 0.25rem 0 0 0;
+    padding: 0.25rem 0 2.5rem 0;
 }
 
 .title__project {
@@ -231,7 +230,7 @@ svg {
 .description__project {
     text-align: left;
     font-size: 1.12rem;
-    padding: 1.5rem 0 2.5rem 0;
+    padding: 1.5rem 0 0 0;
 
 }
 
@@ -421,9 +420,8 @@ footer p{
     }
 
     .tag{
-        margin: 0.5rem;
-        padding: 0.5rem 1.25rem;
-        font-size: 1.375rem;
+        padding: 0.125rem 0.5rem;
+        font-size: 1rem;
     }
 
     .experience {
@@ -436,6 +434,11 @@ footer p{
         padding: 2rem 0 1rem 0;
     }
 
+    .experience__labels{
+        padding: 0 0 1rem 0;
+    }
+
+
     .experience p{
         font-size: 1.55rem;
         padding: 1rem 0;
@@ -443,6 +446,7 @@ footer p{
 
     .projects{
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-evenly;
     }
@@ -466,5 +470,34 @@ footer p{
 
     .work{
         background-size: cover;
+        padding: 12rem 0;
     }
+
+    .work h2{
+        font-size: 2.75rem;
+        padding: 2.54rem 0;
+    }
+
+    .images{
+        flex-direction: row
+    }
+
+    .work__img{
+        width: 400px;
+        height: 120px;
+        padding: 4rem 2.5rem;
+}
+
+footer{
+    padding: 12rem 0 6rem 0;
+}
+
+.footer__icon svg{
+    width: 120px;
+}
+
+.footer__icon span{
+    font-size: 1.75rem;
+}
+
 }
